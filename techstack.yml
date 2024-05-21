@@ -1,0 +1,67 @@
+repo_name: naywintx/ameba
+report_id: 6265869a1c860cdeda51f530d14dc744
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:33:15+00:00'
+requested_by: Sija
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Crystal
+  description: Fast as C, slick as Ruby
+  website_url: http://crystal-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3381/_iXHOD-1.png
+  detection_source_url: https://github.com/naywintx/ameba
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/naywintx/ameba
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/ameba
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/naywintx/ameba/blob/master/.github/workflows/cd.yml
+  detection_source: ".github/workflows/cd.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-09-12 21:20:47.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/naywintx/ameba/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Sijawusz Pur Rahnama
+  last_updated_on: 2022-11-10 03:42:13.000000000 Z
